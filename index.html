@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -70,14 +71,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">About Me</h2><br />
+                    <img src="images/aboutme.png" style="width:200px; height:200px;" />
                 </div>
                 <div class="col-md-8">
                     <h3> 경험형 개발자 </h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+
                     </p>
                 </div>
             </div>
@@ -126,15 +126,22 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project1.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>자연어 처리 기술을 이용한 개체명 인식기 개발</h3>
+                        <hr />
+                        <p align="left">
+                            자연어처리(NLP) 모델 중 BERT를 사용하여 한국어 개체명을 학습시키고,
+                            이를 웹 상에서 개체명 인식기로서 구동될 수 있도록 개발한다.
                         </p>
-                        <a href="#">View Project</a>
+                        <hr />
+                        <p align="left">
+                            Skills : Python, Tensorflow, PHP, Apache<br />
+                            Environment : Windows 10
+                        </p>
+                        <a href="https://github.com/namgonkim/kwbert">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -142,15 +149,46 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project2.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>JSP 웹 게시판 개발</h3>
+                        <hr />
+                        <p align="left">
+                            웹 프로젝트의 기본이 되는 게시판을 만들어 보고,
+                            JSP 웹에 다양한 기능들을 추가로 개발해본다.
                         </p>
-                        <a href="#">View Project</a>
+                        <hr />
+                        <p align="left">
+                            Skills : JAVA, Spring Framework, MySQL, MyBatis, Apache-Tomcat <br />
+                            Environment : Windows 10
+                        </p>
+                        <a href="https://github.com/namgonkim/board">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project3.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>영화 데이터베이스 시스템 개발</h3>
+                        <hr />
+                        <p align="left">
+                            영화 데이터들을 확보하여 데이터베이스 시스템을 개발하고,
+                            이를 Database server에 다양한 query를 던질 수 있는 응용 프로그램을 개발 한다.
+                        </p>
+                        <hr />
+                        <p align="left">
+                            Skills : JAVA, Spring Framework, MySQL, MyBatis, Apache-Tomcat <br />
+                            Environment : Windows 10 <br />
+                            Team : 김승기(김남곤, 안승기)
+                        </p>
+                        <a href="https://github.com/namgonkim/board">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -159,16 +197,37 @@
         </div>
     </div>
     <!-- End #projects -->
+    <style>
+        .ex_img {
+            float: left;
+            width: 180px;
+            height: 200px;
+        }
+
+        .ex_res {
+            display: inline-block;
+            width: 420px;
+            height: 200px;
+        }
+    </style>
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="2019.07 – 2019.08">
-                <h3><a href="http://robomation.net/"> Robomation </a></h3>
-                <h4>교육용 로봇 SW 개발</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <div class="ex_img" align="left">
+                    <img src="images/experience1.png" style="width:180px; height:180px;" float="left" />
+                </div>
+                <div class="ex_res" align="right">
+                    <h3><a href="http://robomation.net/"> Robomation </a></h3>
+                    <h4>SW 교육용 로봇 프로그래밍</h4>
+                    <hr />
+                    <ul>
+                        <li>2019 하계 단기 인턴십 프로그램</li>
+                        <li>프로세싱 언어를 사용, 치즈스틱 제품 교육용 예제 개발</li>
+                        <li>개발한 교육용 예제들을 종합, 자바 라이브러리 패키징</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -202,16 +261,10 @@
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
-        <h2 class="heading">Contacts</h2>
+    <div id="contact" class="background-alt" border-bottom="1px solid #dcd9d9" style="background-color: #f2f2f5;">
+        <h2 class="heading" style="color:black">Contacts</h2>
         <div id="contact-form">
-            <h2>zxcv9455@naver.com</h2>
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+            <h2 style="color:black"> Email : zxcv9455@naver.com </h2>
         </div>
         <!-- End #contact-form -->
     </div>
@@ -224,7 +277,7 @@
                     <p>
                         Copyright &copy; 2020 NAMGONKIM
                     </p>
-                    <p> MIT LICENSE - https://ryanfitzgerald.github.io/devportfolio/ </p>
+                    <p> MIT LICENSE <br /> <a href="https://ryanfitzgerald.github.io/devportfolio/">https://ryanfitzgerald.github.io/devportfolio/ </a> </p>
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
@@ -260,6 +313,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="https://ajax.googleapis.com/libs/jqery/3.3.1/jquery.min.js"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 </body>
 
 </html>
